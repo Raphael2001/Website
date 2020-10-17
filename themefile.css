@@ -1,0 +1,158 @@
+body {
+    background: #222;
+    background: #fff;
+    font: 100% system-ui;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background: #222;
+    }
+}
+
+.aboutme img {
+    float: Right;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.aboutme h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.aboutme {
+    background-color: #292C33;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 23px;
+    border-radius: 20px;
+}
+
+.cv {
+    background-color: #292C33;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.top {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    color: teal;
+}
+
+.contactme {
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.fa {
+    width: 30px;
+    color: #aaa;
+    padding: 10px;
+}
+
+.footer-top {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.footer-top h2 {
+    font-size: 30px;
+}
+
+.container {
+    position: relative;
+    margin: 20px auto;
+}
+
+.container .box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #292C33;
+    float: left;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    object-fit: cover;
+    text-align: left;
+    padding: 20px;
+    font-size: 23px;
+}
+
+a {
+    color: #FFC815;
+}
+
+a:hover {
+    color: gray;
+}
+
+.githublink {
+    text-align: center;
+}
+
+.photoswhatsappbot img {
+    float: left;
+    object-fit: cover;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+}
+
+.photosfindme img {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    width: 280px;
+    height: 500px;
+    margin: 30px;
+    object-fit: cover;
+    display: block;
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .photoscarshop img {
+        float: left;
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        min-width: 300px;
+        height: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .photoscarshop img {
+        padding: 10px;
+    }
+}
